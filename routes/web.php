@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'welcome')->name('welcome');
 Route::view('/upgrade-to-pro', 'pages.pro.index')->name('pro');
 
-Route::group(['prefix' => 'authentication', 'as' => 'auth.'], function() {
-    Route::get('/', function() {
+Route::group(['prefix' => 'authentication', 'as' => 'auth.'], function () {
+    Route::get('/', function () {
         return redirect()->route('auth.sign-in');
     })->name('base');
 
@@ -28,12 +28,12 @@ Route::group(['prefix' => 'authentication', 'as' => 'auth.'], function() {
     Route::view('/locked', 'pages.authentication.locked')->name('locked');
 });
 
-Route::group(['prefix' => 'dashboard', 'as' => 'dashboard.'], function() {
+Route::group(['prefix' => 'dashboard', 'as' => 'dashboard.'], function () {
     Route::view('/', 'pages.dashboard.index')->name('home');
     Route::view('/transactions', 'pages.transactions.index')->name('transactions');
     Route::view('/settings', 'pages.settings.index')->name('settings');
     Route::view('/tables', 'pages.tables.index')->name('tables');
-    Route::group(['prefix' => 'components'], function() {
+    Route::group(['prefix' => 'components'], function () {
         Route::view('/buttons', 'pages.buttons.index')->name('buttons');
         Route::view('/notifications', 'pages.notifications.index')->name('notifications');
         Route::view('/forms', 'pages.forms.index')->name('forms');
@@ -41,11 +41,11 @@ Route::group(['prefix' => 'dashboard', 'as' => 'dashboard.'], function() {
         Route::view('/typography', 'pages.typography.index')->name('typography');
     });
 });
-Route::group(['prefix' => 'error', 'as' => 'error.'], function() {
-    Route::get('/', function() {
+Route::group(['prefix' => 'error', 'as' => 'error.'], function () {
+    Route::get('/', function () {
         return redirect()->route('error.404');
     })->name('base');
-    
+
     Route::view('/404', 'errors.404')->name('404');
     Route::view('/500', 'errors.500')->name('500');
 });
