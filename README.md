@@ -1,4 +1,4 @@
-# [Volt - Bootstrap 5 Admin Dashboard (Laravel Version)](https://demo.themesberg.com/volt/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fvolt-bootstrap-5-dashboard&via=themesberg&text=Volt%20-%20Open%20Source%20Bootstrap%205%20Admin%20Dashboard)
+# [Volt - Bootstrap 5 Admin Dashboard (Laravel Version)](https://demo.themesberg.com/volt/)
 
 [![Volt Bootstrap 5 Dashboard Preview](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/volt-bootstrap-5-dashboard-preview.jpg)](https://demo.themesberg.com/volt/)
 
