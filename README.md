@@ -1,4 +1,15 @@
+<div align="center">
+
 # [Volt - Bootstrap 5 Admin Dashboard (Laravel Version)](https://demo.themesberg.com/volt/)
+
+</div>
+
+<div align="center">
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/akunbeben/volt-laravel-dashboard/Build%20Action?label=tests&logo=github&style=flat-square)
+![StyleCI status](https://github.styleci.io/repos/378383014/shield)
+
+</div>
 
 [![Volt Bootstrap 5 Dashboard Preview](https://raw.githubusercontent.com/akunbeben/volt-laravel-dashboard/master/public/images/volt-laravel-dashboard-preview.jpg)](https://volt-laravel.herokuapp.com/)
 
@@ -16,7 +27,7 @@ We created no less than 11 advanced example pages such as the overview page, tra
 
 This project assets is built using the following technologies:
 
-- Webpacks - Laravel-Mix
+-   Webpacks - Laravel-Mix
 
 ## Versions
 
@@ -24,30 +35,36 @@ This project assets is built using the following technologies:
 
 ## Installation
 
-- Fork and Clone this repository.
-- Go to the cloned repository folder `cd volt-laravel-dashboard` .
-- Run this following commands:
+-   Fork and Clone this repository.
+-   Go to the cloned repository folder `cd volt-laravel-dashboard` .
+-   Run this following commands:
 
 Install the composer dependencies
+
 ```
 composer install
 ```
 
 Generate the Application Key
+
 ```
 php artisan key:generate
 ```
 
 Install and compile NPM dependencies
+
 ```
 npm install && npm run dev
 ```
+
 or if you using Yarn
+
 ```
 yarn && yarn run dev
 ```
 
 Finally. Ready to serve.
+
 ```
 php artisan serve
 ```
