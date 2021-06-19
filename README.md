@@ -1,6 +1,6 @@
 # [Volt - Bootstrap 5 Admin Dashboard (Laravel Version)](https://demo.themesberg.com/volt/)
 
-[![Volt Bootstrap 5 Dashboard Preview](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/volt-bootstrap-5-dashboard-preview.jpg)](https://demo.themesberg.com/volt/)
+[![Volt Bootstrap 5 Dashboard Preview](https://raw.githubusercontent.com/akunbeben/volt-laravel-dashboard/master/public/images/volt-laravel-dashboard-preview.jpg)](https://demo.themesberg.com/volt/)
 
 Volt is a free and open source Bootstrap 5 Admin Dashboard featuring over 100 components, 11 example pages and 3 customized plugins. Volt **does not require jQuery** as a dependency meaning that every library and script's are jQuery free.
 
