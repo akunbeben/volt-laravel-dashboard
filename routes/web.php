@@ -30,7 +30,7 @@ Route::group(['prefix' => 'authentication', 'as' => 'auth.'], function() {
 
 Route::group(['prefix' => 'dashboard', 'as' => 'dashboard.'], function() {
     Route::view('/', 'pages.dashboard.index')->name('home');
-    Route::view('/transaction', 'pages.transaction.index')->name('transaction');
+    Route::view('/transactions', 'pages.transactions.index')->name('transactions');
     Route::view('/settings', 'pages.settings.index')->name('settings');
     Route::view('/tables', 'pages.tables.index')->name('tables');
     Route::group(['prefix' => 'components'], function() {

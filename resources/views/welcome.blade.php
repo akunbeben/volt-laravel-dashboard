@@ -281,7 +281,7 @@
                 </div>
                 <div class="row mb-5">
                     <div class="col-6 mb-5">
-                        <a href="./pages/dashboard/dashboard.html" class="page-preview scale-up-2">
+                        <a href="{{ route('dashboard.home') }}" class="page-preview scale-up-2">
                             <img class="shadow-lg rounded scale" src="{{ asset('images/pages/overview.jpg') }}" alt="Dashboard page preview">
                             <div class="text-center show-on-hover rounded-bottom">
                                 <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Overview <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -292,7 +292,7 @@
                         </a>
                     </div>
                     <div class="col-6 mb-5">
-                        <a href="./pages/transactions.html" class="page-preview scale-up-2">
+                        <a href="{{ route('dashboard.transactions') }}" class="page-preview scale-up-2">
                             <img class="shadow-lg rounded scale" src="{{ asset('images/pages/transactions.jpg') }}" alt="Transactions page preview">
                             <div class="text-center show-on-hover rounded-bottom">
                                 <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Transactions <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -303,7 +303,7 @@
                         </a>
                     </div>
                     <div class="col-6 mb-5">
-                        <a href="./pages/settings.html" class="page-preview scale-up-2">
+                        <a href="{{ route('dashboard.settings') }}" class="page-preview scale-up-2">
                             <img class="shadow-lg rounded scale" src="{{ asset('images/pages/settings.jpg') }}" alt="Settings page preview">
                             <div class="text-center show-on-hover rounded-bottom">
                                 <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Settings <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -314,7 +314,7 @@
                         </a>
                     </div>
                     <div class="col-6 mb-5">
-                        <a href="./pages/examples/sign-in.html" class="page-preview scale-up-2">
+                        <a href="{{ route('auth.sign-in') }}" class="page-preview scale-up-2">
                             <img class="shadow-lg rounded scale" src="{{ asset('images/pages/sign-in.jpg') }}" alt="Sign In page preview">
                             <div class="text-center show-on-hover rounded-bottom">
                                 <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Sign In <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -325,7 +325,7 @@
                         </a>
                     </div>
                     <div class="col-6 mb-5">
-                        <a href="./pages/examples/sign-up.html" class="page-preview scale-up-2">
+                        <a href="{{ route('auth.sign-up') }}" class="page-preview scale-up-2">
                             <img class="shadow-lg rounded scale" src="{{ asset('images/pages/sign-up.jpg') }}" alt="Sign Up page preview">
                             <div class="text-center show-on-hover rounded-bottom">
                                 <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Sign Up <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -336,10 +336,10 @@
                         </a>
                     </div>
                     <div class="col-6 mb-5">
-                        <a href="./pages/examples/lock.html" class="page-preview scale-up-2">
+                        <a href="{{ route('auth.locked') }}" class="page-preview scale-up-2">
                             <img class="shadow-lg rounded scale" src="{{ asset('images/pages/lock.jpg') }}" alt="Lock page preview">
                             <div class="text-center show-on-hover rounded-bottom">
-                                <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Sign Up <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Lock <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
                                         <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
                                     </svg></h6>
@@ -347,7 +347,7 @@
                         </a>
                     </div>
                     <div class="col-6 mb-5">
-                        <a href="./pages/examples/forgot-password.html" class="page-preview scale-up-2">
+                        <a href="{{ route('auth.forgot-password') }}" class="page-preview scale-up-2">
                             <img class="shadow-lg rounded scale" src="{{ asset('images/pages/forgot-password.jpg') }}" alt="Forgot password preview">
                             <div class="text-center show-on-hover rounded-bottom">
                                 <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Forgot password <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -358,7 +358,7 @@
                         </a>
                     </div>
                     <div class="col-6 mb-5">
-                        <a href="./pages/examples/reset-password.html" class="page-preview scale-up-2">
+                        <a href="{{ route('auth.reset-password') }}" class="page-preview scale-up-2">
                             <img class="shadow-lg rounded scale" src="{{ asset('images/pages/reset-password.jpg') }}" alt="Reset password preview">
                             <div class="text-center show-on-hover rounded-bottom">
                                 <h6 class="m-0 text-center d-inline-flex align-items-center text-white">Reset password <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -369,7 +369,7 @@
                         </a>
                     </div>
                     <div class="col-6 mb-5">
-                        <a href="./pages/examples/404.html" class="page-preview scale-up-2">
+                        <a href="{{ route('error.404') }}" class="page-preview scale-up-2">
                             <img class="shadow-lg rounded scale" src="{{ asset('images/pages/404.jpg') }}" alt="404 error preview">
                             <div class="text-center show-on-hover rounded-bottom">
                                 <h6 class="m-0 text-center d-inline-flex align-items-center text-white">404 <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -380,7 +380,7 @@
                         </a>
                     </div>
                     <div class="col-6 mb-5">
-                        <a href="./pages/examples/500.html" class="page-preview scale-up-2">
+                        <a href="{{ route('error.404') }}" class="page-preview scale-up-2">
                             <img class="shadow-lg rounded scale" src="{{ asset('images/pages/500.jpg') }}" alt="500 error preview">
                             <div class="text-center show-on-hover rounded-bottom">
                                 <h6 class="m-0 text-center d-inline-flex align-items-center text-white">500 <svg class="icon icon-xs ms-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
